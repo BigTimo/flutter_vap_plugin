@@ -5,7 +5,7 @@ repository: https://github.com/Matkurban/flutter_vap_plugin.git
 homepage: https://github.com/Matkurban/flutter_vap_plugin.git
 
 environment:
-  sdk: ^3.7.2
+  sdk: ^3.6.1
   flutter: '>=3.3.0'
 
 dependencies:
