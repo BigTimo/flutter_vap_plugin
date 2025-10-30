@@ -158,7 +158,7 @@ class FlutterVapView(
         try {
             animView.stopPlay()
             methodChannel.setMethodCallHandler(null)
-            lastPlayedFile?.delete() // 清理最后播放的临时文件
+            // lastPlayedFile?.delete() // 清理最后播放的临时文件
         } catch (e: Exception) {
             Log.e("FlutterVapView", "Error during dispose", e)
         }
